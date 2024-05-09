@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+/* header : signin - create an account  */
+
+.signup-bar {
+    width: 100%;
+    height: 34px;
+    background-color: #33325c;
+}
+
+.signup-bar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.sign-options {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.sign-options a {
+    text-decoration: none;
+    color: white;
+}
+
+.sign-options a:hover {
+    text-decoration: underline;
+}
+
+/* Header : nav bar */
+
+.navigator {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.logo-section {
+
+    width: 250px;
+    height: 70px;
+    display: flex;
+
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo {
+    width: 28%;
+
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.name h2 {
+    font-size: 30px;
+    color: #FF0000;
+    margin: 0;
+    margin-top: 5px;
+
+}
+
+.name h4 {
+    font-size: medium;
+    background: rgb(104, 107, 17);
+    background: linear-gradient(90deg, rgba(104, 107, 17, 1) 5%, rgba(255, 59, 0, 1) 22%, rgba(250, 146, 27, 1) 42%, rgba(231, 125, 11, 1) 73%, rgba(100, 39, 11, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}

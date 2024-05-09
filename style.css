@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+/* header : signin - create an account  */
+
+.signup-bar {
+    width: 100%;
+    height: 34px;
+    background-color: #33325c;
+}
+
+.signup-bar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.sign-options {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.sign-options a {
+    text-decoration: none;
+    color: white;
+}
+
+.sign-options a:hover {
+    text-decoration: underline;
+}
+
+/* Header : nav bar */
+
+.navigator {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-section {
+
+    width: 250px;
+    height: 70px;
+    display: flex;
+
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo {
+    width: 28%;
+
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.name h2 {
+    font-size: 30px;
+    color: #FF0000;
+    margin: 0;
+    margin-top: 5px;
+
+}
+
+.name h4 {
+    font-size: medium;
+    background: rgb(104, 107, 17);
+    background: linear-gradient(90deg, rgba(104, 107, 17, 1) 5%, rgba(255, 59, 0, 1) 22%, rgba(250, 146, 27, 1) 42%, rgba(231, 125, 11, 1) 73%, rgba(100, 39, 11, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* nav ul li a:hover{
+    text-decoration: underline;
+} */
+
+
+
+/* The main section  */
+
+
+.slider {
+    width: 100%;
+    /* height: 382px;0 */
+    /* overflow: hidden;  */
+}
+
+.img-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+
+.category-section {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.category-section h1 {
+    font-weight: 600;
+}
+
+.category-container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    height: 660px;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 15px;
+    row-gap: 10px;
+    justify-items: start;
+    align-items: center;
+}
+
+.category-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Lightings {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    width: 260px;
+    height: 490px;
+}
+
+.Home-decors {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 260px;
+    height: 100%;
+}
+
+.Shirts {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 260px;
+    height: 320px;
+}
+
+.Furniture {
+    grid-column: 2/3;
+    grid-row: 3/5;
+    width: 260px;
+    height: 320px;
+}
+
+.Accessories {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    height: 150px;
+}
+
+.Footwears {
+    grid-column: 3/4;
+    grid-row: 2/5;
+    height: 490px;
+}
+
+.Sarees {
+    grid-column: 4/5;
+    grid-row: 1/3;
+    width: 388px;
+    height: 320px;
+}
+
+.Cushions {
+    grid-column: 4/5;
+    grid-row: 3/5;
+    width: 388px;
+    height: 320px;
+}
+
+
+
+
+
+.small-text {
+    margin-top: 50px;
+    line-height: 1px;
+    /* line-height: 100px; */
+    padding-left: 220px;
+    color: #33325c;
+}
+
+.large-text {
+    /* line-height: 10px; */
+    /* margin-left: 130px; */
+    color: #33325c;
+}
+
+.section-text {
+    /* line-height: 10px; */
+    width: 1200px;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* margin-left: 135px; */
+}
+
+.section-text button {
+    width: 100px;
+    height: 40px;
+    /* margin-bottom: 50px; */
+    /* padding: 5px; */
+    /* position: absolute; */
+}
+
+.card-container {
+    border-top: 1px solid black;
+    width: 1200px;
+    height: 415px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card {
+    width: 280px;
+    height: 400px;
+}
+
+.card-img {
+    width: 100%;
+    height: 250px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 400;
+    position: absolute;
+    bottom: 45px;
+}
+
+.card-title span {
+    font-weight: 300;
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+
+#bann {
+    width: 100%;
+}
+
+.l {
+    margin-top: 20px;
+}
+
+.buy-btn {
+    position: absolute;
+    bottom: 10px;
+}
+
+
+.men-siders {
+    margin: 15px 0;
+    width: 100%;
+    height: 500px;
+    /* background-color: #FF0000; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.men {
+    align-self: center;
+    width: 69%;
+    height: 85%;
+    /* background-color: rgb(171, 171, 207); */
+}
+
+.sider {
+    width: 490px;
+    height: 100%;
+    /* background-color: aqua;  */
+}
+
+.side-img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.men-section-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.men-section-text>h2 {
+    color: #33325c;
+}
+
+.men-section-small-text {
+    line-height: 1px;
+    color: #33325c;
+}
+
+.m-card {
+    width: 200px;
+    height: 300px;
+}
+
+.m-img {
+    width: 100%;
+    height: 140px;
+}
+
+.m-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.m-title {
+    font-weight: 400;
+    position: absolute;
+    bottom: 45px;
+}
+
+.m-title span {
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.men-card-container {
+    margin-top: 5px;
+    border-top: 1px solid black;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.side-img {
+    cursor: pointer;
+}
+
+.body-sliders {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bann {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fabric-section {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.chiffon {
+    width: 245px;
+    height: 155px;
+}
+
+.coo {
+    height: 485px;
+}
+
+.cotton-blend {
+    height: 150px;
+}
+
+
+
+
+footer {
+    width: 100%;
+    height: 700px;
+    background-color: #33325c;
+}
+
+footer img {
+    width: 100%;
+    cursor: pointer;
+}
+
